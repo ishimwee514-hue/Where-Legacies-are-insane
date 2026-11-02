@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0e1014;
+  --color-surface: #171a20;
+  --color-elevated: #21262f;
+  --color-fg: #f3eee6;
+  --color-muted: #b4ab9f;
+  --color-faint: #7d766c;
+  --color-gold: #c9a227;
+  --color-gold-soft: #e6d08a;
+  --color-ink: #0e1014;
+  --color-rust: #c46b5a;
+  --color-line: #2c323c;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --radius-card: 0.5rem;
+}
+
+/* Runtime themes override the same tokens Tailwind utilities already use. */
+:root,
+[data-theme="night"] {
+  --color-bg: #0e1014;
+  --color-surface: #171a20;
+  --color-elevated: #21262f;
+  --color-fg: #f3eee6;
+  --color-muted: #b4ab9f;
+  --color-faint: #7d766c;
+  --color-gold: #c9a227;
+  --color-gold-soft: #e6d08a;
+  --color-ink: #0e1014;
+  --color-rust: #c46b5a;
+  --color-line: #2c323c;
+}
+
+[data-theme="paper"] {
+  --color-bg: #f4efe4;
+  --color-surface: #fffdf8;
+  --color-elevated: #efe6d6;
+  --color-fg: #1c1915;
+  --color-muted: #5c564c;
+  --color-faint: #8a8176;
+  --color-gold: #1b6b4a;
+  --color-gold-soft: #145538;
+  --color-ink: #f4efe4;
+  --color-rust: #8e3b32;
+  --color-line: #e0d5c2;
+}
+
+[data-theme="indigo"] {
+  --color-bg: #12141f;
+  --color-surface: #1c2030;
+  --color-elevated: #272c40;
+  --color-fg: #f6f1ea;
+  --color-muted: #b7b3c9;
+  --color-faint: #8884a0;
+  --color-gold: #e07a5f;
+  --color-gold-soft: #f2c1b0;
+  --color-ink: #12141f;
+  --color-rust: #e2b340;
+  --color-line: #353a52;
+}
+
+[data-theme="savanna"] {
+  --color-bg: #f6e7cf;
+  --color-surface: #fff8ee;
+  --color-elevated: #eddcc0;
+  --color-fg: #2a2118;
+  --color-muted: #6a5344;
+  --color-faint: #8d7362;
+  --color-gold: #c4531a;
+  --color-gold-soft: #8d3810;
+  --color-ink: #fff8ee;
+  --color-rust: #7a2f2f;
+  --color-line: #e3cba8;
+}
+
+[data-font="archive"] {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Outfit", system-ui, sans-serif;
+}
+
+[data-font="gazette"] {
+  --font-display: "Newsreader", Georgia, serif;
+  --font-sans: "Figtree", system-ui, sans-serif;
+}
+
+[data-font="signal"] {
+  --font-display: "Syne", system-ui, sans-serif;
+  --font-sans: "Outfit", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    line-height: 1.55;
+    transition: background-color 180ms ease, color 180ms ease;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  ::selection {
+    background: var(--color-gold);
+    color: var(--color-ink);
+  }
+}
+
+.font-sample-archive { font-family: "Fraunces", Georgia, serif; }
+.font-sample-gazette { font-family: "Newsreader", Georgia, serif; }
+.font-sample-signal { font-family: "Syne", system-ui, sans-serif; }
+.swatch-paper { background: #f4efe4; box-shadow: inset 0 0 0 2px #1b6b4a; }
+.swatch-indigo { background: #12141f; box-shadow: inset 0 0 0 2px #e07a5f; }
+.swatch-savanna { background: #f6e7cf; box-shadow: inset 0 0 0 2px #c4531a; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  body { transition: none; }
+}

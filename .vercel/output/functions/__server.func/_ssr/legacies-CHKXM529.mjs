@@ -1,0 +1,531 @@
+//#region node_modules/.nitro/vite/services/ssr/assets/legacies-CHKXM529.js
+var img = (id) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1400&q=75`;
+var places = [
+	{
+		id: "lalibela",
+		title: "Lalibela",
+		region: "africa",
+		location: "Lalibela, Ethiopia",
+		era: "12th–13th century",
+		summary: "Churches carved straight down into living rock — a highland kingdom writing its faith into the mountain.",
+		body: "King Lalibela’s churches were not stacked on the land. They were cut out of it: courtyards, tunnels, and cruciform halls in one piece of basalt. Ethiopia was already a Christian state centuries before many European kingdoms took that name. For a young person told that Africa’s story starts with outsiders arriving, Lalibela is a correction you can walk through.",
+		why: "Your history did not begin when someone else wrote it down.",
+		image: img("photo-1568632234157-ce7aecd03d0d")
+	},
+	{
+		id: "great-zimbabwe",
+		title: "Great Zimbabwe",
+		region: "africa",
+		location: "Masvingo, Zimbabwe",
+		era: "11th–15th century",
+		summary: "A stone city of dry-wall towers and trade routes that reached the Indian Ocean — built without mortar, and without European architects.",
+		body: "At its height, Great Zimbabwe held thousands of people and moved gold, ivory, and cloth across a wide network. Colonial writers later tried to invent a foreign builder because they could not imagine African skill at this scale. Archaeology ended that argument. The walls are still there. So is the lie they were built to answer.",
+		why: "If someone says a great thing on this continent must have come from somewhere else, this city is the reply.",
+		image: img("photo-1516026672322-bc52d61a55d5")
+	},
+	{
+		id: "timbuktu",
+		title: "Timbuktu",
+		region: "africa",
+		location: "Timbuktu, Mali",
+		era: "From the 12th century",
+		summary: "A desert university town where manuscripts, law, and astronomy were the real wealth.",
+		body: "Under the Mali and Songhai empires, Timbuktu’s schools drew students from across the Sahel and beyond. Families copied books by hand — Qurans, mathematics, medicine, history — and hid many of them when later wars came. In 2012 militants burned libraries. Townspeople smuggled manuscripts out in boxes. Knowledge here was never an accident. People chose to keep it.",
+		why: "A generation that hides books from people who burn them is already teaching you how to protect a mind.",
+		image: img("photo-1489493585363-d69421e0edd3")
+	},
+	{
+		id: "goree",
+		title: "Gorée Island",
+		region: "africa",
+		location: "Dakar, Senegal",
+		era: "15th–19th centuries",
+		summary: "A small island off Dakar that the Atlantic slave trade turned into a doorway people were forced through.",
+		body: "Gorée was one node in a much larger system of forts, ships, and markets. The House of Slaves is debated by historians as a precise departure point, and that debate should not be used to shrink the crime. Millions of Africans were taken. Families on this coast still live beside the water those ships used. Standing there is not tourism. It is a refusal to let the ocean look innocent.",
+		why: "If your family story has a gap where names should be, this coast is part of why.",
+		image: img("photo-1507525428034-b723cf961d3e")
+	},
+	{
+		id: "robben",
+		title: "Robben Island",
+		region: "africa",
+		location: "Cape Town, South Africa",
+		era: "Prison, 17th century–1996",
+		summary: "The island prison where apartheid tried to bury a generation of organizers, including Nelson Mandela.",
+		body: "Robben Island held political prisoners who taught one another in cells and quarries — law, history, strategy — under a government that called education a threat. The limestone quarry damaged men’s eyes. It also became a classroom. The prison closed as a political jail after the transition. Young South Africans inherit both facts: the state can cage a mind, and a mind can still organize inside the cage.",
+		why: "School is not a small thing. People have gone to prison for insisting on it.",
+		image: img("photo-1580060839134-75a5edca2e99")
+	},
+	{
+		id: "petra",
+		title: "Petra",
+		region: "asia",
+		location: "Ma’an, Jordan",
+		era: "From the 4th century BCE",
+		summary: "A Nabataean city cut into rose-colored cliffs, built by traders who made a desert crossing worth the risk.",
+		body: "Petra sat on caravan routes between Arabia, the Mediterranean, and Egypt. Water channels, not just facades, kept it alive. The famous treasury is one tomb among a whole civic landscape. Young people across the Arab world grow up with this stone as proof that their region engineered beauty and logistics long before modern borders.",
+		why: "The world is wider than the map your textbooks linger on.",
+		image: img("photo-1548786811-dd6e453ccca7")
+	},
+	{
+		id: "hiroshima-peace",
+		title: "Hiroshima Peace Memorial",
+		region: "asia",
+		location: "Hiroshima, Japan",
+		era: "1945, kept as a ruin",
+		summary: "The shell of a building left standing after the first atomic bomb used on a city — kept so the argument never becomes abstract.",
+		body: "On 6 August 1945 a single bomb killed tens of thousands of people in Hiroshima, many of them civilians, many of them young. Survivors, hibakusha, have spent their lives asking the next generation not to treat nuclear war as a strategy problem with no faces. The dome is not a trophy. It is a warning addressed to anyone who will still be alive when the next decision is made.",
+		why: "The people who inherit the weapons are usually not the people who ordered the first one.",
+		image: img("photo-1578271887552-5ac3a90e0c6d")
+	},
+	{
+		id: "giza",
+		title: "Great Pyramid of Giza",
+		region: "africa",
+		location: "Giza Plateau, Egypt",
+		era: "c. 2560 BCE",
+		summary: "The last surviving Wonder of the Ancient World, and for nearly four millennia the tallest structure humans had built.",
+		body: "Raised as a tomb for Pharaoh Khufu, the Great Pyramid is a lesson in planning, labor, and geometry. Its orientation, casing (now mostly gone), and internal passages still challenge simple explanations of how a Bronze Age state organized stone at this scale. What remains is not mystery for its own sake — it is evidence of a civilization that treated the afterlife, the state, and the sky as one project.",
+		image: img("photo-1503177119275-0aa32b3a9368")
+	},
+	{
+		id: "kilimanjaro",
+		title: "Mount Kilimanjaro",
+		region: "africa",
+		location: "Tanzania",
+		era: "Natural wonder",
+		summary: "Africa’s highest peak: a free-standing volcanic massif whose ice is a living record of a warming climate.",
+		body: "Kilimanjaro rises alone from the savanna, snow on the equator, three volcanic cones sharing one name. Climbers cross cultivated slopes, forest, moorland, and alpine desert in a few days. The shrinking glaciers are not a metaphor — they are a measured retreat. The mountain is both a landmark of East Africa and a place where climate change is visible without a chart.",
+		image: img("photo-1547471080-7cc2caa01a7e")
+	},
+	{
+		id: "taj-mahal",
+		title: "Taj Mahal",
+		region: "asia",
+		location: "Agra, India",
+		era: "1632–1653",
+		summary: "A Mughal mausoleum commissioned by Shah Jahan for Mumtaz Mahal — architecture used as an argument for grief.",
+		body: "White marble, inlaid stone, and a garden ordered on the charbagh plan make the Taj one of the most deliberate buildings ever finished. It is easy to reduce it to a postcard of romance. The fuller story includes imperial wealth, skilled artisans from across the empire, and a monument that still sets a standard for proportion. Preservation, pollution, and tourism are now part of its legacy as much as the original inscription of love.",
+		image: img("photo-1564507592333-c60657eea523")
+	},
+	{
+		id: "great-wall",
+		title: "Great Wall of China",
+		region: "asia",
+		location: "Northern China",
+		era: "7th c. BCE – 17th c.",
+		summary: "Not one wall but a system of fortifications built, rebuilt, and abandoned across many dynasties.",
+		body: "The Wall is a political technology: signal towers, garrisons, and stone or rammed earth adjusted to terrain. Later Ming sections are what most visitors walk. Earlier stretches have returned to the hills. Treating it as a single continuous line hides the real history — border policy, labor, and the limits of any wall against people who know the land.",
+		image: img("photo-1508804185872-d7badad00f7d")
+	},
+	{
+		id: "angkor",
+		title: "Angkor Wat",
+		region: "asia",
+		location: "Siem Reap, Cambodia",
+		era: "Early 12th century",
+		summary: "The largest religious monument on Earth, first a temple to Vishnu, later a Buddhist center of the Khmer world.",
+		body: "Angkor Wat’s galleries, moat, and towers are a map of cosmology as much as a building. Bas-reliefs record myth and royal procession side by side. The wider Angkor landscape — reservoirs, roads, and lesser temples — shows a city that managed water at imperial scale. War, looting, and tourism have all marked it. Careful conservation is now part of the site’s story.",
+		image: img("photo-1563492065599-3520f775eeed")
+	},
+	{
+		id: "colosseum",
+		title: "The Colosseum",
+		region: "europe",
+		location: "Rome, Italy",
+		era: "70–80 CE",
+		summary: "A Roman amphitheater built for mass spectacle — engineering brilliance put in service of public violence.",
+		body: "The Flavian Amphitheatre could hold tens of thousands. Vaulted corridors, numbered entrances, and a retractable awning made crowd movement a design problem, solved with unusual clarity. The games staged inside were political theater as well as entertainment. The ruin is therefore two legacies at once: how far Roman concrete and organization could go, and what a society chooses to watch together.",
+		image: img("photo-1552832230-c0197dd311b5")
+	},
+	{
+		id: "parthenon",
+		title: "The Parthenon",
+		region: "europe",
+		location: "Athens, Greece",
+		era: "447–432 BCE",
+		summary: "The temple of Athena on the Acropolis, still the shorthand for classical proportion — and for contested heritage.",
+		body: "Built under Pericles after the Persian wars, the Parthenon refined optical corrections so that straight lines would look straight from the ground. It has been temple, church, mosque, and ammunition store. The 1687 explosion and the later removal of sculptures still shape arguments about where cultural property belongs. The building teaches both aesthetic discipline and the politics of ruins.",
+		image: img("photo-1555993539-1732b0258235")
+	},
+	{
+		id: "machu-picchu",
+		title: "Machu Picchu",
+		region: "americas",
+		location: "Cusco Region, Peru",
+		era: "c. 1450",
+		summary: "An Inca estate high in the Andes, fitted to a ridge with dry-stone precision and a clear reading of the land.",
+		body: "Machu Picchu was not “lost”; local people knew the ridge. What 1911 changed was global attention. Agricultural terraces, water channels, and aligned windows show planners who treated mountain, sun, and settlement as one system. Visitor limits today are an admission that admiration can damage what it came to see.",
+		image: img("photo-1526392060635-9d6019884377")
+	},
+	{
+		id: "grand-canyon",
+		title: "Grand Canyon",
+		region: "americas",
+		location: "Arizona, United States",
+		era: "Natural wonder",
+		summary: "A mile-deep cut of the Colorado River — geological time made visible, and a sacred landscape long before parks.",
+		body: "The canyon exposes rock that records hundreds of millions of years. For many Indigenous nations it is not scenery; it is origin, route, and responsibility. The national park made the view famous and also concentrated pressure on trails, water, and the river itself. Standing on the rim is a lesson in scale: human history is a thin layer on a much older cut.",
+		image: img("photo-1474044159687-1ee9f3a51722")
+	},
+	{
+		id: "uluru",
+		title: "Uluru",
+		region: "oceania",
+		location: "Northern Territory, Australia",
+		era: "Sacred site",
+		summary: "A sandstone monolith at the center of Anangu law, story, and country — not a climbing wall.",
+		body: "Uluru’s surfaces hold creation narratives that Anangu people have maintained across generations. Climbing was long marketed to visitors and is now closed, a correction toward the people whose country it is. The rock’s color shifts with the day. The more important shift is legal and ethical: who gets to define a place, and on whose terms others may approach it.",
+		image: img("photo-1529108190281-9a4f620bc2d8")
+	},
+	{
+		id: "fiordland",
+		title: "Fiordland",
+		region: "oceania",
+		location: "South Island, New Zealand",
+		era: "Natural wonder",
+		summary: "Glaciated valleys flooded by the sea, wrapped in temperate rainforest and weather that still sets the terms.",
+		body: "Milford Sound and its neighboring fiords are the product of ice, then water. Rainfall is extreme; the forest climbs almost to the waterline. The landscape is young in human terms and old in geological ones. It is also a reminder that “untouched” is rarely accurate — Māori routes and names precede the postcard.",
+		image: img("photo-1507699622108-4be3abd695ad")
+	}
+];
+var events = [
+	{
+		id: "adwa",
+		title: "Battle of Adwa",
+		kind: "best",
+		year: "1 March 1896",
+		summary: "Ethiopia defeated an invading Italian army and kept its independence while Europe was carving up the continent.",
+		body: "At Adwa, Emperor Menelik II’s forces broke a modern European army that expected colonial conquest to be routine. The victory did not make Ethiopia a perfect state. It did prove that the scramble was not fate. Across the Black world, Adwa became a story people told when they were told resistance was pointless. That story still travels.",
+		why: "Someone already proved that a whole empire can be told no.",
+		image: img("photo-1547471080-7cc2caa01a7e")
+	},
+	{
+		id: "year-of-africa",
+		title: "The Year of Africa",
+		kind: "best",
+		year: "1960",
+		summary: "Seventeen African countries took independence in a single year. Flags went up. The work of freedom stayed unfinished on purpose.",
+		body: "1960 followed Ghana’s independence in 1957 and a decade of organizing in parties, unions, churches, and classrooms. New states inherited borders drawn in Berlin, economies built for export, and elites who sometimes copied the rulers they replaced. The year still matters because it records a generation that refused to stay subjects. Young Africans live inside both results: the flag, and the unfinished republic.",
+		why: "Independence was not a gift. People your grandparents’ age organized for it.",
+		image: img("photo-1523805009345-7448845a9e53")
+	},
+	{
+		id: "soweto",
+		title: "Soweto Uprising",
+		kind: "best",
+		year: "16 June 1976",
+		summary: "Students in Soweto walked out against a law that forced Afrikaans into their classrooms. Police opened fire. The photographs went around the world.",
+		body: "The immediate fight was language: whose tongue gets to be the language of school. The larger fight was apartheid itself. Hector Pieterson was thirteen. Hundreds more died in the months that followed. Youth Day in South Africa is not a costume holiday. It is a reminder that teenagers have already changed the direction of a country, and that the state answered them with bullets. Courage and grief sit in the same date.",
+		why: "If you have ever been told your language, your accent, or your school does not count, this march was about you.",
+		image: img("photo-1483729558449-99ef09a8c325")
+	},
+	{
+		id: "green-belt",
+		title: "The Green Belt Movement",
+		kind: "best",
+		year: "From 1977",
+		summary: "Wangari Maathai and rural Kenyan women planted tens of millions of trees and tied the environment to democracy.",
+		body: "Maathai started with seedlings and women’s groups, then ran into a state that treated criticism as disloyalty. She was beaten, jailed, and still kept the argument simple: soil, water, firewood, and political voice are the same struggle. In 2004 she became the first African woman to receive the Nobel Peace Prize. The movement is a template for young people who are told climate work is either too small or too political to start.",
+		why: "You do not need a ministry to begin repairing the ground under your feet.",
+		image: img("photo-1441974231531-c6227db76b6e")
+	},
+	{
+		id: "malala-day",
+		title: "A girl refuses to leave school",
+		kind: "best",
+		year: "2012–2014",
+		summary: "Malala Yousafzai was shot for going to school in Pakistan, lived, and made girls’ education a global demand.",
+		body: "The attack was meant to frighten a valley into silence. It did the opposite. Malala’s story is not a fairy tale about one hero, and it should not erase the teachers and students who never became famous. It is evidence that the right to sit in a classroom is still dangerous in parts of the world, and still worth the risk. Youth on every continent recognized themselves in that refusal.",
+		why: "Your seat in a classroom is a political fact, even on days it feels ordinary.",
+		image: img("photo-1503676260728-1c00da094a0b")
+	},
+	{
+		id: "apollo-11",
+		title: "Apollo 11 Moon Landing",
+		kind: "best",
+		year: "20 July 1969",
+		summary: "Neil Armstrong and Buzz Aldrin walked on the Moon. For a few hours, Earth watched a species leave its planet on purpose.",
+		body: "Apollo 11 was the public peak of a program built on calculation, risk, and Cold War competition. The landing did not end poverty or war. It did prove that a stated technical goal, funded and staffed at scale, can move a machine and three people beyond Earth and bring them back. The photographs of a small world from its moon remain one of the few images almost everyone recognizes as shared.",
+		image: img("photo-1451187580459-43490279c0fa")
+	},
+	{
+		id: "udhr",
+		title: "Universal Declaration of Human Rights",
+		kind: "best",
+		year: "10 December 1948",
+		summary: "The United Nations agreed, on paper, that dignity is not a privilege of citizenship or empire.",
+		body: "Drafted in the shadow of world war and genocide, the Declaration is not a treaty and not a government. It is a standard. Countries have signed it and violated it. Its articles — on speech, belief, work, asylum, and equality — are still the language people use when a state claims that cruelty is an internal matter. An unfinished promise is still a promise with a date.",
+		image: img("photo-1529107386315-e1a2ed48a620")
+	},
+	{
+		id: "smallpox",
+		title: "Eradication of Smallpox",
+		kind: "best",
+		year: "Declared 1980",
+		summary: "The only human disease deliberately removed from the wild. Vaccination, surveillance, and cooperation did what isolation could not.",
+		body: "Smallpox killed hundreds of millions across centuries. The final campaign was unglamorous: rings of vaccination around outbreaks, record-keeping, and persistence in places with weak health systems. In 1980 the World Health Organization declared eradication. It remains the clearest proof that global public health can finish a job, not merely manage one.",
+		image: img("photo-1576091160550-2173dba999ef")
+	},
+	{
+		id: "berlin-wall",
+		title: "Fall of the Berlin Wall",
+		kind: "best",
+		year: "9 November 1989",
+		summary: "A border built to stop people from leaving opened in a night. The Cold War’s most visible scar began to come down.",
+		body: "The Wall divided a city and symbolized a continent split by ideology and nuclear threat. Its opening was messy — a press conference, crowds, border guards who chose not to shoot. What followed was not automatic freedom everywhere. It was the end of one arrangement of power, and a reminder that political facts people treat as permanent can fail quickly when the people holding them stop believing.",
+		image: img("photo-1467269204594-9661b134dd2b")
+	},
+	{
+		id: "south-africa-1994",
+		title: "South Africa’s First Democratic Election",
+		kind: "best",
+		year: "April 1994",
+		summary: "After apartheid, millions voted in a single electorate. Nelson Mandela became president of a country that had jailed him.",
+		body: "The election did not erase inequality, violence, or the economic structure apartheid left behind. It did end a legal system that sorted human beings by race and called it order. The transition was negotiated, imperfect, and still argued over. It belongs here because it shows a society can change its constitution without requiring the total destruction of the country first.",
+		image: img("photo-1483729558449-99ef09a8c325")
+	},
+	{
+		id: "ww2",
+		title: "The Second World War",
+		kind: "worst",
+		year: "1939–1945",
+		summary: "The deadliest conflict ever recorded. Industrial war, genocide, and the first use of nuclear weapons on cities.",
+		body: "Estimates of the dead run past seventy million, most of them civilians. The Holocaust was a state project of murder. Cities were burned from the air. The war ended regimes and started others, including the institutions meant to prevent a repeat. Remembering it is not nostalgia for battle. It is a record of what organized hatred, expansion, and indifference can do when they have factories.",
+		image: img("photo-1580137189272-c9379f8864fd")
+	},
+	{
+		id: "berlin-conference",
+		title: "The Berlin Conference",
+		kind: "worst",
+		year: "1884–1885",
+		summary: "European powers sat in Berlin and drew rules for taking Africa. Almost no African state was in the room.",
+		body: "The conference did not invent conquest, but it coordinated it: claims, rivers, and the fiction that a map agreed in Europe was a right. Borders cut through languages and kingdoms, then hardened into the states young Africans are born into. The damage is not only historical. It is the reason some of your cousins live in a different country than the market your grandparents used.",
+		why: "The border on your ID card was argued over by people who never had to live inside it.",
+		image: img("photo-1524661135-423995f22d0b")
+	},
+	{
+		id: "congo-leopold",
+		title: "The Congo under Leopold II",
+		kind: "worst",
+		year: "1885–1908",
+		summary: "A European king held the Congo as private property. Rubber quotas were enforced with mutilation and mass death.",
+		body: "The Congo Free State was a company dressed as a civilizing mission. Villages that missed rubber quotas were punished with murder and the cutting of hands. Estimates of the dead run into the millions; the exact figure is contested, the system is not. The scandal forced Belgium to take the colony from the king. It did not return the lives, the ivory, or the rubber. Young Congolese still meet this story in minerals that leave the ground and in jokes that treat their country as a resource, not a public.",
+		why: "If a phone, a tire, or a headline treats the Congo as a warehouse, this is the old pattern with new packaging.",
+		image: img("photo-1469474968028-56623f02e42e")
+	},
+	{
+		id: "armenian-genocide",
+		title: "Armenian Genocide",
+		kind: "worst",
+		year: "1915–1917",
+		summary: "The Ottoman government deported and killed Armenians on a scale that emptied historic homelands.",
+		body: "Death marches, massacres, and expropriation destroyed communities that had lived in Anatolia for centuries. Roughly one and a half million people were killed. Denial followed the crime and is still official policy in places that should know better. The genocide is an early template of the twentieth century: bureaucracy, wartime cover, and the claim that a people were a problem to be solved.",
+		image: img("photo-1578662996442-48f60103fc96")
+	},
+	{
+		id: "rwanda-1994",
+		title: "Rwandan Genocide",
+		kind: "worst",
+		year: "April–July 1994",
+		summary: "In about one hundred days, hundreds of thousands of Tutsi and others were murdered while the world debated the word genocide.",
+		body: "Radio, militias, and neighbors carried out killings at a speed that still shocks. Estimates center near eight hundred thousand dead. Peacekeepers were present and under-ordered. The genocide is not an ancient tragedy. It is recent, documented, and a standing indictment of how slowly institutions move when the victims are far from the capitals that set the agenda.",
+		image: img("photo-1523805009345-7448845a9e53")
+	},
+	{
+		id: "holodomor",
+		title: "Holodomor",
+		kind: "worst",
+		year: "1932–1933",
+		summary: "A famine engineered in Soviet Ukraine. Grain was seized; borders were closed; millions starved.",
+		body: "Collectivization and procurement quotas stripped the countryside of food while exports continued. The Ukrainian memory of the Holodomor is of a targeted catastrophe, not a bad harvest. Many countries now recognize it as genocide. The lesson is administrative: starvation can be policy, and statistics can be used to hide the people inside them.",
+		image: img("photo-1469474968028-56623f02e42e")
+	},
+	{
+		id: "slave-trade",
+		title: "Transatlantic Slave Trade",
+		kind: "worst",
+		year: "16th–19th centuries",
+		summary: "About 12.5 million Africans were forced across the Atlantic. The trade built wealth on stolen lives and then called the result normal.",
+		body: "The trade was a system: capture, forts, ships, auctions, plantations, and law written to protect property in persons. It reshaped Africa, the Americas, and Europe’s economies. Abolition ended the legal trade; it did not return the dead or dissolve the racial order the trade invented to justify itself. Any honest archive of “the best and worst” has to hold this centuries-long crime without softening the numbers.",
+		image: img("photo-1476514525535-07fb3b4ae5f1")
+	}
+];
+var quotes = [
+	{
+		id: "sankara",
+		text: "We must dare to invent the future.",
+		author: "Thomas Sankara",
+		region: "Africa · Burkina Faso"
+	},
+	{
+		id: "biko",
+		text: "The most potent weapon in the hands of the oppressor is the mind of the oppressed.",
+		author: "Steve Biko",
+		region: "Africa · South Africa"
+	},
+	{
+		id: "nkrumah",
+		text: "We face neither East nor West; we face forward.",
+		author: "Kwame Nkrumah",
+		region: "Africa · Ghana"
+	},
+	{
+		id: "maathai",
+		text: "We cannot tire or give up. We owe it to the present and future generations of all species to rise up and walk.",
+		author: "Wangari Maathai",
+		region: "Africa · Kenya"
+	},
+	{
+		id: "lions",
+		text: "Until the lions have their own historians, the history of the hunt will always glorify the hunter.",
+		author: "Proverb, often linked to African oral tradition",
+		region: "Africa"
+	},
+	{
+		id: "malala-pen",
+		text: "One child, one teacher, one book, and one pen can change the world.",
+		author: "Malala Yousafzai",
+		region: "Asia · Pakistan"
+	},
+	{
+		id: "mandela-edu",
+		text: "Education is the most powerful weapon which you can use to change the world.",
+		author: "Nelson Mandela",
+		region: "Africa · South Africa"
+	},
+	{
+		id: "proverb-together",
+		text: "If you want to go fast, go alone. If you want to go far, go together.",
+		author: "African proverb",
+		region: "Africa"
+	},
+	{
+		id: "mandela-small",
+		text: "There is no passion to be found playing small — in settling for a life that is less than the one you are capable of living.",
+		author: "Nelson Mandela",
+		region: "Africa · South Africa"
+	},
+	{
+		id: "confucius",
+		text: "It does not matter how slowly you go as long as you do not stop.",
+		author: "Confucius",
+		region: "Asia · China"
+	},
+	{
+		id: "buddha",
+		text: "The mind is everything. What you think you become.",
+		author: "Attributed to the Buddha",
+		region: "Asia"
+	},
+	{
+		id: "plant-tree",
+		text: "The best time to plant a tree was twenty years ago. The second best time is now.",
+		author: "Chinese proverb",
+		region: "Asia · China"
+	},
+	{
+		id: "gandhi",
+		text: "Be the change that you wish to see in the world.",
+		author: "Attributed to Mahatma Gandhi",
+		region: "Asia · India"
+	},
+	{
+		id: "burke",
+		text: "The only thing necessary for the triumph of evil is for good men to do nothing.",
+		author: "Attributed to Edmund Burke",
+		region: "Europe"
+	},
+	{
+		id: "descartes",
+		text: "I think, therefore I am.",
+		author: "René Descartes",
+		region: "Europe · France"
+	},
+	{
+		id: "aristotle",
+		text: "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+		author: "Will Durant, summarizing Aristotle",
+		region: "Europe · Greece"
+	},
+	{
+		id: "mlk",
+		text: "I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.",
+		author: "Martin Luther King Jr.",
+		region: "Americas · United States"
+	},
+	{
+		id: "fdr",
+		text: "The only thing we have to fear is fear itself.",
+		author: "Franklin D. Roosevelt",
+		region: "Americas · United States"
+	},
+	{
+		id: "emerson",
+		text: "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+		author: "Ralph Waldo Emerson",
+		region: "Americas · United States"
+	},
+	{
+		id: "quran",
+		text: "Whoever saves one life, it is as if he had saved all mankind.",
+		author: "Quran 5:32",
+		region: "Middle East"
+	},
+	{
+		id: "ink",
+		text: "The ink of the scholar is more sacred than the blood of the martyr.",
+		author: "Islamic tradition",
+		region: "Middle East"
+	},
+	{
+		id: "borrow-earth",
+		text: "We do not inherit the Earth from our ancestors; we borrow it from our children.",
+		author: "Proverb, widely shared in Indigenous teachings",
+		region: "Indigenous wisdom"
+	},
+	{
+		id: "mandela-fall",
+		text: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+		author: "Nelson Mandela",
+		region: "Africa · South Africa"
+	},
+	{
+		id: "rumi",
+		text: "Let the beauty we love be what we do. There are hundreds of ways to kneel and kiss the ground.",
+		author: "Rumi",
+		region: "Middle East · Persia"
+	}
+];
+var regionLabel = {
+	africa: "Africa",
+	asia: "Asia",
+	europe: "Europe",
+	americas: "Americas",
+	oceania: "Oceania"
+};
+function placeById(id) {
+	return places.find((p) => p.id === id);
+}
+function eventById(id) {
+	return events.find((e) => e.id === id);
+}
+function quoteOfDay(date = /* @__PURE__ */ new Date()) {
+	const start = new Date(date.getFullYear(), 0, 0);
+	return quotes[Math.floor((date.getTime() - start.getTime()) / 864e5) % quotes.length];
+}
+var featuredPlaceIds = [
+	"lalibela",
+	"timbuktu",
+	"petra"
+];
+var featuredEventIds = [
+	"adwa",
+	"soweto",
+	"year-of-africa"
+];
+function byIds(all, ids) {
+	return ids.map((id) => all.find((item) => item.id === id)).filter((item) => Boolean(item));
+}
+//#endregion
+export { featuredPlaceIds as a, quoteOfDay as c, featuredEventIds as i, quotes as l, eventById as n, placeById as o, events as r, places as s, byIds as t, regionLabel as u };

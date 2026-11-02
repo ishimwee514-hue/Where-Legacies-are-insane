@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "World Legacies",
+      "hasCanvas": false,
+      "bodyTextLen": 2458,
+      "bodyTextHash": "1072fc862bd93363f162e2677b6b427d9c522025ae3f2ab74817bc776009a7dd",
+      "bodyTextPrefix": "World Legacies Home Places Events Quotes About Look FOR EVERY YO",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/prod-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "World Legacies",
+      "hasCanvas": false,
+      "bodyTextLen": 2421,
+      "bodyTextHash": "ed63f3652bc2f75ecb5c070db1138f5e47da9537e38021f456923381376236ec",
+      "bodyTextPrefix": "World Legacies FOR EVERY YOUNG PERSON WHO INHERITS THIS WORLD Hi",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/prod-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/prod-preview.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
